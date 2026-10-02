@@ -21,4 +21,10 @@
 
 ## 发布状态
 
-已准备本地源码、`main` 分支、GitHub Pages 工作流及发布说明。尚未创建远程仓库或执行线上发布；实际 Pages 地址在发布时由官方 Actions 读取并填入，源码没有写入假定的官网域名。
+已于 2026-10-02 根据用户授权创建公开仓库并完成 GitHub Pages 发布。
+
+- 官网：<https://mikufufuouo.github.io/miaowu-studio/>
+- 仓库：<https://github.com/mikufufuouo/miaowu-studio>
+- 首次成功发布：<https://github.com/mikufufuouo/miaowu-studio/actions/runs/36993507023>
+
+正式 HTTPS 地址返回 200。已在正式站点复查桌面 1440 px、手机 390 px、全部页面图片、canonical/OG 绝对地址、robots/sitemap、favicon，以及深层真实 404 的图片与回首页入口。检查均通过，页面没有本地地址引用。线上截图及结果保存在被排除的本地 `review/` 目录。

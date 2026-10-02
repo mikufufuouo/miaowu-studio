@@ -1,5 +1,9 @@
 # 喵呜小暖工作室官网
 
+官网：<https://mikufufuouo.github.io/miaowu-studio/>
+
+源码仓库：<https://github.com/mikufufuouo/miaowu-studio>
+
 一个长期维护的静态单页官网：原生 HTML + CSS、本地图片，没有框架、网站运行时 JavaScript、数据库、CDN 字体或分析服务。页面直接打开即可阅读；GitHub Pages 发布时由一个 Python 标准库脚本补齐实际网址和搜索信息。
 
 ## 本地查看
@@ -31,7 +35,9 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 ## GitHub Pages 发布
 
-站点文件和 `.github/workflows/pages.yml` 已准备好。远程仓库由你选择；建议使用公开仓库 `mikufufuouo/miaowu-studio`，默认分支为 `main`。
+官网已发布到公开仓库 `mikufufuouo/miaowu-studio` 的 GitHub Pages，默认分支为 `main`。以后更新文件并推送到 `main` 即会自动发布。站点的 Source 已设置为 GitHub Actions。
+
+首次发布或迁移仓库时：
 
 1. 将本目录的 Git 仓库上传到 GitHub，包含 `.github/workflows/pages.yml`。
 2. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
